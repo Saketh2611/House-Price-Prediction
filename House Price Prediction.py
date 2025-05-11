@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file = r"C:\Users\v.saketh\Downloads\HousePricePrediction.xlsx"
+file = "HousePricePrediction (1).xlsx" #replace with correct path if needed 
 dataset = pd.read_excel(file)
 
 # Display the first 5 rows
